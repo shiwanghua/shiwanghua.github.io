@@ -1,0 +1,57 @@
+# theme: jekyll-theme-hacker
+
+title: Swhua博客主页
+email: s-whua@sjtu.edu.cn
+description: >
+  Don't count the days, <br>
+  make the days count.
+tagline: vitam impendere vero
+location: Versailles
+date: true
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://shiwanghua.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+author: shiwanghua
+# google_analytics: UA-101394056-1
+
+# SEO
+# twitter:
+#   username: jdatap
+
+logo: /SwhuaBlog/assets/logo.png
+
+lang: zh-CN
+timezone: Asia/Shanghai
+# facebook:
+#  app_id: 101766790448070
+
+social:
+  name: John Coene
+  links:
+    - https://twitter.com/jdatap
+    - https://www.linkedin.com/in/johncoene
+    - https://plus.google.com/109009224717674019651
+    - https://github.com/JohnCoene
+
+# Build settings
+exclude: README.md
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+  - jekyll-seo-tag
+exclude:
+  - Gemfile
+  - Gemfile.lock
+plugins_dir:
+  - jekyll-roman
+  - jekyll-seo-tag
+
+repository: git@github.com:shiwanghua/shiwanghua.github.io.git 
+branch: main
+
+
+# Swhua博客主页
+
+#  [汇总链接](https://blog.csdn.net/qq_39536393/article/details/111054763)
+
+#  平台真多，懒得到处都贴
