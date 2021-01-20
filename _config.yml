@@ -5,12 +5,13 @@ email: s-whua@sjtu.edu.cn
 description: >
   Don't count the days, <br>
   make the days count.
-tagline: vitam impendere vero
-location: Versailles
+tagline: 难搞，别人的主题。
+location: SILENT WOLF
 date: true
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://shiwanghua.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-author: Simplicity is the shortest path to a solution.
+author: Simplicity is the shortest path to a solution.<br> 
+        欢迎来到 Bugs 清道夫的博客
 # google_analytics: UA-101394056-1
 
 # SEO
@@ -46,8 +47,11 @@ plugins_dir:
   - jekyll-roman
   - jekyll-seo-tag
 
-repository: git@github.com:shiwanghua/shiwanghua.github.io.git 
-branch: main
+deploy:
+  type: git
+  repository: git@github.com:shiwanghua/shiwanghua.github.io.git 
+  branch: main
+
 
 
 # Swhua博客主页
